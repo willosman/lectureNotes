@@ -1,11 +1,12 @@
-.body{
-    background-color: #fff;
+body{
+    background-color: white;
     font-family: Roboto, sans-serif;
     font-size: 14px;
-    line-height: 1.8;
+    height: 100vh;
 }
 .container{
-    width: 100%;
+    width: 100vw;
+    height: auto;
     max-width: none;
     margin-right: 0px;
     margin-left: 0px;
@@ -33,21 +34,26 @@
     width: 201px;
     height: auto;
     margin-top: 18px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 5px;
     margin-left: 0px;
     border: 0px none transparent;
 }
 
 .nav-link{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     float: right;
     width: 104px;
     height: 27px;
-    margin-top: 5px;
-    margin-left: 40px;
+    margin-top: 14px;
+    margin-left: 10px;
     margin-right: 15px;
+    margin-bottom: 0px;
     padding: 0px;
-    border: 0px none transparent;
+    border: 1px none transparent;
     border-radius: 3px;
     box-shadow: inset 0 0 0 1px #fff;
     font-size: 14px;
@@ -56,13 +62,19 @@
     text-align: center;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    color: white;
+    text-decoration-color: white;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
 }
 
 .nav-item{
     margin-top: 20px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    margin-left: 0px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -78,59 +90,14 @@
     font-family: Roboto, sans-serif;
 }
 
-/* .about{
-    margin-top: 0px;
-    margin-right: 18px;
-    margin-bottom: 0px;
-    margin-left: 18px;
-    height: auto;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color:#ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: Roboto, sans-serif;
-} */
-
-/* .help{
-    margin-right: 18px;
-    height: auto;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: Roboto, sans-serif;
-} */
-
-/* .community{
-    margin-right: 18px;
-    height: auto;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500; 
-    font-family: Roboto, sans-serif; 
-} */
-
-/* .premium{
-    margin-right: 18px;
-    height: auto;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500; 
-    font-family: Roboto, sans-serif;
-} */
-
 .purple-section{
     left: auto;
     min-height: auto;
-    margin-top: 0px;
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-left: -10px;
     padding-top: 140px;
-    padding-bottom: 110px;
+    padding-bottom: 130px;
     border: 0px none transparent;
     border-radius: 0px;
     background-color: #331a5c;
@@ -186,30 +153,38 @@
     font-family: Roboto, sans-serif;
 }
 
-.primary-button{
+.primary-button {
     min-width: 215px;
-    padding: 10px 45px 10px 45px;
+    padding-top: 10px;
+    padding-right: 46px;
+    padding-bottom: 10px;
+    padding-left: 46px;
+    margin-top: 10px;
+    margin-right: 0px; 
+    color: white;
     float: none;
     clear: both;
+    border: 0;
     border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: rgba(254, 144, 0, 0);
-    border-radius: 3px 3px 3px 3px;
+    border-width: 0px;
+    border-radius: 3px;
     background-color: #fe9000;
-    transition: border 300ms ease;
-    color: #fff;
     font-size: 18px;
+    font-family: Roboto, sans-serif;
     line-height: 44px;
-    font-weight: 700;
+    font-weight: 550;
     text-align: center;
+    letter-spacing: 1.44px;
     text-indent: 1.44px;
     text-transform: uppercase;
     white-space: nowrap;
+    background-clip: padding-box;
     object-fit: fill;
+    text-decoration: none;
 }
 
-.primary-button:hover{
-    transform: scale(1.5);
+.primary-buttom:hover{
+    transform: scale(10);
 }
 
 .white-section{
@@ -242,33 +217,38 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
-/* 
-#quote{
-    width: 100%;
-    font-size: 20px;
-    font-family: roboto, sans-serif;
-    font-style: italic;
+
+.quote{
+    max-width: 734px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
     text-align: center;
-    border: 1px solid black;
+    font-style: italic;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
 }
 
-.text-block{
-    margin-top: 100px;
-    margin-right: ;
-    margin-bottom: ;
-    margin-left: ;
-    width: 100%;
-    font-size: 20px;
-    font-family: roboto, sans-serif;
+.quote-source{
+    max-width: 734px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    text-align: right;
     font-style: italic;
-    text-align: center;
-    border: 1px solid black;
-} */
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+
 .green-section{
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    margin-right: -20px;
+    margin-left: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-image: url(https://www.kastapp.co/images/green-bg.jpg);
     background-position: 0px 0px 0px 0px;
     background-size: cover;
@@ -311,30 +291,4 @@
     line-height: 34px;
     text-align: center;
     font-family: roboto, sans-serif;
-}
-
-.button-2{
-    min-width: 215px;
-    padding: 10px 45px 10px 45px;
-    margin-top: 0px;
-    margin-right: 250px;
-    margin-bottom: 30px;
-    margin-left: 500px;
-    float: none;
-    clear: both;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: rgba(254, 144, 0, 0);
-    border-radius: 3px 3px 3px 3px;
-    background-color: #fe9000;
-    transition: border 300ms ease;
-    color: #fff;
-    font-size: 18px;
-    line-height: 44px;
-    font-weight: 700;
-    text-align: center;
-    text-indent: 1.44px;
-    text-transform: uppercase;
-    white-space: nowrap;
-    object-fit: fill;
 }
