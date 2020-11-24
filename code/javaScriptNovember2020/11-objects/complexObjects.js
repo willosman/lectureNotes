@@ -30,3 +30,70 @@ console.log(netflix);
 console.log(netflix.season1.seasonInfo.episodeInfo[10].episodeName);
 
 console.log(netflix.season1.seasonInfo.episodeInfo[10].episode, netflix.season1.seasonInfo.episodeInfo[10].episodeName);
+
+//JSON -> JavaScript Object Notation
+
+let spaceJam = {
+    toonSquad: {
+        human: 'Michael Jordan',
+        rabbit1: 'Bugs Bunny',
+        rabbit2: 'Lola Bunny',
+        duck: 'Daffy Duck',
+        tDevil: 'Tasmanian Devil',
+        bird: 'Tweety',
+        cat: 'Sylvester',
+        pig: 'Porky Pig'
+    },
+    monstars: {
+        0: 'Bupkus',
+        1: 'Bang',
+        2: 'Nawt',
+        3: 'Pound',
+        4: 'Blanko'
+    },
+    nbaPlayers: {
+        phoenixSuns: 'Charles Barkley',
+        newJerseyNets: 'Shawn Bradley',
+        newYorkNicks: 'Patrick Ewing',
+        charlotteHornets1: 'Larry Johnson',
+        charlotteHornets2: 'Muggsy Bogues'
+    }
+}
+
+console.log(Object.keys(spaceJam)); //Object.keys returns an array consisting of the keys in our object. 
+console.log(Object.keys(spaceJam.toonSquad));
+console.log(Object.keys(spaceJam.toonSquad).toString());
+
+console.log(Object.values(spaceJam));
+console.log(Object.values(spaceJam.toonSquad));
+
+let garden = {
+    vegetable: 'zucchini',
+    flower: 'sun flower', 
+    fruit: 'grape', 
+    water: true,
+    sun: true,
+    size: 10
+}
+
+console.log(garden.vegetable);
+
+let inc = 'fruit';
+
+console.log(garden[inc]);
+
+let baking = {};
+baking['zucchini'] = 'better make some bread!';
+baking.bestKeyEver = 'zucchini';
+
+console.log(baking.zucchini);
+console.log(baking.bestKeyEver);
+console.log(baking[baking.bestKeyEver]);
+
+let g = 'water';
+
+Object.keys(garden).forEach(key => {
+    if (key == g){
+        console.log(garden[key]);
+    }
+})
