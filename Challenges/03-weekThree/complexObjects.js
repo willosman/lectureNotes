@@ -53,3 +53,15 @@ console.log(contact);
 let newArray = Object.keys(contact);
 
 console.log(newArray);
+
+let restaurant = {
+  restaurantName: "Chickfila", 
+  yearBuilt: 1946, 
+  seating: ["10 - 20", "20 - 90", "90+"], 
+  carryOut: true,
+  entreeItems: ["Chicken Sandwich", "Chicken Mini's", "Chicken Biscuit", "Waffle Fries", "Chicken Nuggets"]
+}
+
+console.log(restaurant);
+console.log(restaurant.restaurantName.yearBuilt)
+console.log(restaurant.yearBuilt);

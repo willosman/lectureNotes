@@ -56,14 +56,14 @@ Return
 -Code below the "return" keyword in {} does not get executed. 
 */
 
-// function calculator(one, two, three){
-//     let totalWeight = one + two + three;
-//     let average = Math.round(totalWeight / 3);
-//     return average;
-// }
+function calculator(one, two, three){
+    let totalWeight = one + two + three;
+    let average = Math.round(totalWeight / 3);
+    return average;
+}
 
-// let averageWeight = calculator(15, 60, 55);
-// console.log(averageWeight);
+let averageWeight = calculator(15, 60, 55);
+console.log(averageWeight);
 
 /*
 Arrow Functions
@@ -100,14 +100,14 @@ There are two types of arrow functions: concise body and block body.
 
 //Practice I
 
-// function areaRec(area1, area2) {
-//     let rectangle = area1 * area2; 
-//     let area = Math.round(rectangle);
-//     return area;
-// }
+function areaRec(area1, area2) {
+    let rectangle = area1 * area2; 
+    let area = Math.round(rectangle);
+    return area;
+}
 
-// let total1 = areaRec(5, 10);
-// console.log(total1);
+let total1 = areaRec(5, 10);
+console.log(total1);
 
 //Practice II
 
