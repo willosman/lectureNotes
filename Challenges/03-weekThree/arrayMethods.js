@@ -128,8 +128,8 @@ let shoppingList = ["celery", "limes", "lemons", "grenadine", "oranges"];
 //Lastly, an ES6 feature: The Spread Operator. The spread operator, indicated by these 3 dots "..."expands the contents of the array and takes it out of the array structure. 
 // console.log(...shoppingList);
 
-let numArray = [20, 40, 60];
-function sum(numOne, numTwo, numThree){
-    return numOne + numTwo + numThree;
-}
-console.log(sum(...numArray));
+// let numArray = [20, 40, 60];
+// function sum(numOne, numTwo, numThree){
+//     return numOne + numTwo + numThree;
+// }
+// console.log(sum(...numArray));

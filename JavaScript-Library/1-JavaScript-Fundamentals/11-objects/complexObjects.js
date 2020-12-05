@@ -27,7 +27,7 @@ let netflix = {
 }
 
 console.log(netflix);
-console.log(netflix.season1.seasonInfo.episodeInfo[10].episodeName);
+console.log(netflix.season1.seasonInfo.episodeInfo[8].episodeName);
 
 console.log(netflix.season1.seasonInfo.episodeInfo[10].episode, netflix.season1.seasonInfo.episodeInfo[10].episodeName);
 
