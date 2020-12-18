@@ -1,0 +1,376 @@
+/*Test*/
+body{
+    background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%) !important;
+}
+
+.nav-bar{
+  border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    /* background-color: transparent !important; */
+}
+
+.bg-light {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #fca311 !important;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    color: red !important;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.2);
+    color: red !important;
+}
+
+.jumbotron{
+/* background-color: firebrick !important; */
+border: 5px solid white;
+border-radius: 10px;
+height: 50vh;
+margin-top: 50px;
+margin-left: 50px;
+margin-right: 50px;
+text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+color: black;
+background-image: url(https://www.wallpapers4u.org/wp-content/uploads/background_leaf_light_bright_colors_18449_1920x1080.jpg);
+}
+
+#jumbo{
+  background: transparent;
+}
+
+#random{
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+#skills{
+  margin-top: 20px;
+  background-color: #becac6;
+}
+
+
+
+.html:hover{
+transform: scale(1.2);
+}
+
+.css:hover{
+  transform: scale(1.2);
+}
+
+.javascript:hover{
+  transform: scale(1.2);
+}
+
+.display-4:hover{
+  color: red;
+    transform: scale(1.1);
+}
+
+.container {
+padding: 20px;
+color: white;
+/* background-color: #353535; */
+border-radius: 15px;
+text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 200;
+text-align: center;
+}
+
+#welcome:hover{
+    transform: scale(1.2)
+}
+
+
+#resume{
+        color:white;
+        font-size: 20px;
+        border: 3px solid white;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+#arrows{
+  color: white;
+  font-size: 24px;
+}
+
+.card{
+    border: none;
+}
+
+.card-img-top-about{
+  border: 3px solid white;
+  border-radius: 10px !important;
+}
+  
+.card-img-top{
+  border: 3px solid white;
+  border-radius: 10px !important;
+}
+
+.card-img-top:hover{
+  transform:scale(1.1)
+}
+.card-body{
+    background-color: #becac6;
+    /* background-image: url(https://www.wallpapers4u.org/wp-content/uploads/background_leaf_light_bright_colors_18449_1920x1080.jpg); */
+    /* background-image: url(https://www.oconnorsshoes.com/wp-content/uploads/2019/06/download.jpg); */
+    border: 3px solid white;
+}
+
+.card-text{
+    text-align: center;
+    background-color: #becac6;
+    /* background-image: url(https://www.wallpapers4u.org/wp-content/uploads/background_leaf_light_bright_colors_18449_1920x1080.jpg); */
+    /* background-image: url(https://www.oconnorsshoes.com/wp-content/uploads/2019/06/download.jpg); */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#portfolio-title{
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 3px solid white; */
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#skills-title{
+  margin: auto;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border: 3px solid white; */
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#skills{
+  border: 3px solid white;
+}
+
+
+#portfolio{
+  border: 3px solid white;
+    background-color: #becac6;
+    /* background-image: url(https://www.wallpapers4u.org/wp-content/uploads/background_leaf_light_bright_colors_18449_1920x1080.jpg); */
+}
+
+#about-title{
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#about-me{
+    padding-top: 20px;
+    background-color: #becac6;
+    border: 3px solid white;
+    /* background-image: url(https://www.wallpapers4u.org/wp-content/uploads/background_leaf_light_bright_colors_18449_1920x1080.jpg); */
+}
+
+.contact-fields{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px !important;
+}
+
+#contact-me-title{
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 3px solid white; */
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#contact-me{
+  border: 3px solid white;
+    background-color: #becac6;
+    /* background-image: url(https://www.wallpapers4u.org/wp-content/uploads/background_leaf_light_bright_colors_18449_1920x1080.jpg); */
+}
+
+#footer{
+  margin-bottom: 10px;
+    border: 3px solid white;
+    /* background-color: #fca311; */
+    background-image: url(https://www.wallpapers4u.org/wp-content/uploads/background_leaf_light_bright_colors_18449_1920x1080.jpg);
+}
+
+
+#my-4{
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: black;
+}
+
+/*contact css below*/
+
+#message{
+  border: 3px solid white !important;
+  border-radius: 10px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey !important;
+}
+
+#button{
+    background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%) !important ;
+    border-radius: 20px !important;
+}
+
+#full-name{
+  border: 3px solid white !important;
+  border-radius: 10px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey !important; 
+}
+
+#email-address{
+  border: 3px solid white !important;
+  border-radius: 10px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey !important;
+}
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+

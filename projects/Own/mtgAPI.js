@@ -1,0 +1,1 @@
+let mtgCardList = document.querySelector('section');

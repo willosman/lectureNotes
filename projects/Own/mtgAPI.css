@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+    background-color: slategray;
+  }
+
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .controls, .results {
+    flex: 1;
+    padding: 10px;
+  }
