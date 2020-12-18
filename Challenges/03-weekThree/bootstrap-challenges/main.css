@@ -1,0 +1,26 @@
+/* test*/
+h1 {
+    padding-top: 2em;
+}
+
+
+#custom{
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 400px;
+}
+
+#custom:hover{
+    transform: scale(1.2);
+}
+
+.bg-dark {
+    background-color: green !important;
+}
+
+.list-group-flush{
+    text-align: center;
+}

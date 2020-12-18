@@ -1,4 +1,4 @@
-/*Test */
+/*Tests */
 let url = "https://api.adviceslip.com/advice";
 
 fetch(url)
