@@ -3,6 +3,10 @@ body{
     background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%) !important;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .nav-bar{
   border-radius: 10px;
     position: fixed;
@@ -123,7 +127,7 @@ text-align: center;
 }
 
 .card-img-top:hover{
-  transform:scale(1.1)
+  transform:scale(1)
 }
 .card-body{
     background-color: #becac6;
